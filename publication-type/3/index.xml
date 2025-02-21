@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Mengjia Xia</title>
+    <link>https://apairery.github.io/publication-type/3/</link>
+      <atom:link href="https://apairery.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://apairery.github.io/media/icon_hub4ae3716454b6537f5e317fedc0c5cdf_2418_512x512_fill_lanczos_center_3.png</url>
+      <title>3</title>
+      <link>https://apairery.github.io/publication-type/3/</link>
+    </image>
+    
+    <item>
+      <title>Human Misperception of Generative-AI Alignment: A Laboratory Experiment</title>
+      <link>https://apairery.github.io/publication/human_alignment/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://apairery.github.io/publication/human_alignment/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
