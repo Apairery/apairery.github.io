@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mengjia Xia - Economics researcher.">
+  <title>Mengjia Xia</title>
+  <link rel="icon" type="image/png" href="assets/media/icon.png">
+  <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+  <header class="site-header">
+    <nav aria-label="Primary navigation">
+      <a href="#research">Research</a>
+      <a href="#about">About</a>
+      <a href="https://drive.google.com/file/d/1N2VNaiGJ-Ueim1ZNDBWk9I-hboNYOTCY/view?usp=sharing">CV</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="intro" id="about">
+      <h1>Mengjia Xia</h1>
+      <img class="profile-photo" src="images/profile.JPG" alt="Mengjia Xia">
+      <p>I earned my Ph.D. in Economics from the University of Pennsylvania. My work combines theoretical modeling and experiments to understand how people make decisions and acquire information.</p>
+      <p class="links">
+        <a href="mailto:xiax@sas.upenn.edu">Email</a>
+        <a href="https://github.com/Apairery">GitHub</a>
+        <a href="https://www.linkedin.com/in/yannis-mengjia-xia">LinkedIn</a>
+        <a href="https://drive.google.com/file/d/1N2VNaiGJ-Ueim1ZNDBWk9I-hboNYOTCY/view?usp=sharing">CV</a>
+      </p>
+    </section>
+
+    <section class="research" id="research">
+      <h2>Research</h2>
+
+      <div class="research-group">
+        <h3>Selected Work</h3>
+        <article class="paper">
+          <h4>Human Misperception of Generative-AI Alignment: A Laboratory Experiment</h4>
+          <p class="meta">With <a href="https://kevinhe.net">Kevin He</a> and <a href="https://rshorrer.weebly.com">Ran Shorrer</a>. ACM EC 2025.</p>
+          <p>We study how people perceive the alignment between generative AI choices and human choices in economic decision-making.</p>
+          <p><a href="https://arxiv.org/abs/2502.14708">Paper</a> | <a href="https://omnia.sas.upenn.edu/story/misperceptions-AI-decisions-kevin-he-economics">OMNIA Magazine</a></p>
+          <details>
+            <summary>Abstract</summary>
+            <p>We conduct an incentivized laboratory experiment to study people’s perception of generative artificial intelligence (GenAI) alignment in the context of economic decision-making. Using a panel of economic problems spanning the domains of risk, time preference, social preference, and strategic interactions, we ask human subjects to make choices for themselves and to predict the choices made by GenAI on behalf of a human user. We find that people overestimate the degree of alignment between GenAI and human choices. In every problem, human subjects’ average prediction about GenAI’s choice is substantially closer to the average human-subject choice than it is to the GenAI choice. At the individual level, different subjects’ predictions about GenAI’s choice in a given problem are highly correlated with their own choices in the same problem. We explore the implications of people overestimating GenAI alignment using a simple theoretical model.</p>
+          </details>
+        </article>
+
+        <article class="paper">
+          <h4>Information Acquisition in Fragmented Markets</h4>
+          <p class="meta">With <a href="https://sites.google.com/view/xianwu/home">Xian Wu</a>. 20th International Conference on Web and Internet Economics (WINE 2024).</p>
+          <p>Market fragmentation reduces the amount of data traders acquire. It decreases the allocation efficiency, but can improve the overall welfare by lowering the information cost.</p>
+          <p><a href="https://drive.google.com/file/d/1GCVRU2KTmk3e6d1WoSxUSy9ys0KBCavI/view">Paper</a></p>
+          <details>
+            <summary>Abstract</summary>
+            <p>This paper studies how market fragmentation affects information acquisition, trading, and welfare in a double-auction model with costly private information. Traders choose information precision before trading and then submit linear demand schedules in either a decentralized market with multiple exchanges or a centralized market. Market fragmentation reduces equilibrium information acquisition and allocative efficiency relative to a centralized market. Its welfare effect, however, is ambiguous: although fragmentation lowers information production and allocation efficiency, it can improve welfare when the centralized market induces substantially higher information costs. As a result, the optimal market structure varies non-monotonically with the cost of information. The paper also shows that market designs allowing traders to condition on cross-venue prices increase information acquisition and welfare by reducing price impact and strengthening incentives to become informed.</p>
+          </details>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2020-<span id="current-year"></span> &#x2721;&#xfe0e; Mengjia Xia</p>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
